@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<style >
+	body{
+		background-image: url(image.jpg);
+		background-repeat: no-repeat;
+		margin: 0px;
+		background-size: cover;
+	}
+	.main{
+			background-color: black;
+			width: 100%;
+			height: 40px;
+	}
+	.link{
+		right: 0px;
+		position: absolute;
+		word-spacing: 50px;
+		margin-right:40%;
+		font-size: 20px;
+		padding-top: 5px;
+
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+	.flex-container{
+		flex-direction: row;
+		display: flex;
+
+
+	}
+	.box1{
+		border: 2px solid black;
+		width: 25%;
+		margin-top: 137px;
+		margin-left: 40px;
+		padding: 30px;
+		color: whitesmoke;
+		background: rgba(0, 0, 0, 0.5);
+		padding-top: 10px;
+		border-radius: 20px;
+
+	}
+	.footer{
+		background-color: black;
+		width: 100%;
+		height: 60px;
+		background: rgba(0, 0, 0, 0.5);
+		color: whitesmoke;
+	} 
+	@media screen and (max-width: 752px){
+		.flex-container{
+			flex-direction: column;
+			
+		}
+		.box1{
+			width: 85%;
+		}
+	}
+.box1:hover{
+	border-bottom-color: white;
+	border-left-color:white ;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	
+
+}
+
+</style>
+<body>
+	<div class="main">
+		<div class="link">
+			<a href="#">Home</a>
+			<a href="Gallery.html">Gallery</a>
+			<a href="About.html">About</a>
+			<a href="Contact.html">Contact</a>
+		</div>
+	</div>
+	<div class="flex-container">
+		<div class="box1">
+			<h1><center><u>Heading</u></center></h1>
+			<p>The Andes Mountains are the longest continental mountain range in the world, forming a continuous highland along the western edge of South America. The range is 6,999 km long, 200 to 700 km wide and has an average height of about 4,000 m . The Andes extend from north to south through seven South American countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina</p>
+		</div>
+		<div class="box1">
+			<h1><center><u>Heading</u></center></h1>
+			<p>The Andes Mountains are the longest continental mountain range in the world, forming a continuous highland along the western edge of South America. The range is 6,999 km long, 200 to 700 km wide and has an average height of about 4,000 m . The Andes extend from north to south through seven South American countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina</p>
+		</div>
+		<div class="box1">
+			<h1><center><u>Heading</u></center></h1>
+			<p>The Andes Mountains are the longest continental mountain range in the world, forming a continuous highland along the western edge of South America. The range is 6,999 km long, 200 to 700 km wide and has an average height of about 4,000 m . The Andes extend from north to south through seven South American countries: Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina</p>
+		</div>
+	</div>
+	<div class="footer">
+		<p><center><u>Back to top</u></center></p>
+		<p><center>C 2017-2019Company,Inc-<u>Privacy</u>-<u>Terms</u></center></p>
+	</div>
+
+</body>
+</html>
